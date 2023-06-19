@@ -397,9 +397,9 @@
         ],
         "description": "Add a compactitem (from package paralist)"
     },
-    "Cite": {
-        "prefix": "cite",
-        "body": ["~\\cite{$1}$0"],
+    "Textcite": {
+        "prefix": "ct",
+        "body": ["~\\citetext{$1}$0"],
         "description": "Add a cite"
     },
     "EmptyPage": {
